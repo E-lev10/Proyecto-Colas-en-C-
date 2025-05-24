@@ -20,3 +20,13 @@ cout <<"/n--BANCO CUCUL POP--/N"; //Titulo personalizado del banco
     cout << "0. Salir\n";                  // Opción para terminar el programa
     cout << "Seleccione una opcion: ";     // Solicitud de entrada al usuario
 }
+
+// Función para limpiar la pantalla de la consola
+void limpiarPantalla() {
+    system("cls");       // Comando de Windows para limpiar la consola
+}
+
+// Función principal del programa
+int main() {
+    // Configura la consola para soportar caracteres especiales (tildes, ñ, etc.)
+    SetConsoleOutputCP(CP_UTF8);
