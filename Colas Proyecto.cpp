@@ -13,3 +13,10 @@ struct Cliente {
 
 //Funcion que muestra el menu de opciones void mostrar menu () {
 cout <<"/n--BANCO CUCUL POP--/N"; //Titulo personalizado del banco 
+   cout << "1. Agregar cliente\n";        // Opción para agregar nuevo cliente
+    cout << "2. Atender cliente\n";        // Opción para atender al siguiente cliente
+    cout << "3. Ver cola de espera\n";     // Opción para mostrar la lista de espera
+    cout << "4. Mostrar cliente actual\n"; // Opción para ver el cliente siendo atendido
+    cout << "0. Salir\n";                  // Opción para terminar el programa
+    cout << "Seleccione una opcion: ";     // Solicitud de entrada al usuario
+}
