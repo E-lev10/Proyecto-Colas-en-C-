@@ -25,6 +25,12 @@ cout <<"/n--BANCO CUCUL POP--/N"; //Titulo personalizado del banco
 void limpiarPantalla() {
     system("cls");       // Comando de Windows para limpiar la consola
 }
+// Variables principales:
+    queue<Cliente> colaClientes;      // Cola que almacena los clientes en espera
+    Cliente clienteActual;            // Almacena temporalmente al cliente siendo atendido
+    int contadorTurnos = 1;           // Lleva la secuencia numérica de los turnos
+    int opcion;                       // Almacena la opción seleccionada por el usuario
+    bool clienteSiendoAtendido = false; // Indica si hay un cliente en atención
 
 // Función principal del programa
 int main() {
