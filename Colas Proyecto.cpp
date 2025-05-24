@@ -1,12 +1,15 @@
 #include <iostream> // Biblioteca para operaciones de entrada/salida (cout, cin)
 #include <queue>  // Biblioteca para usar la estructura de datos 'cola' (FIFO)
 #include <string>  // Biblioteca para manejo de cadenas de texto (string)
-#include <windows.h> // Biblioteca específica de Windows para configuraciones de consola
+#include <windows.h> // Biblioteca especÃ­fica de Windows para configuraciones de consola
 
-sing namespace std;      // Evita escribir 'std::' antes de cada función estándar
+sing namespace std;      // Evita escribir 'std::' antes de cada funciÃ³n estÃ¡ndar
 
 // Estructura que define un cliente del banco
 struct Cliente {
-    int turno;           // Número de turno asignado al cliente
+    int turno;           // NÃºmero de turno asignado al cliente
     string nombre;       // Nombre del cliente (usamos string para permitir espacios)
 };
+
+//Funcion que muestra el menu de opciones void mostrar menu () {
+cout <<"/n--BANCO CUCUL POP--/N"; //Titulo personalizado del banco 
